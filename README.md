@@ -6,7 +6,7 @@
 
 or
 
-    $ heroku create <Your APP NAME>
+    $ heroku create
     $ git push heroku master
     $ heroku open
 	
