@@ -1,12 +1,10 @@
-var app, connect, port, serveStatic;
+var connect = require('connect');
 
-connect = require('connect');
+var serveStatic = require('serve-static');
 
-serveStatic = require('serve-static');
+var port = process.env.PORT || 3000;
 
-port = process.env.PORT || 3000;
-
-app = connect();
+var app = connect();
 
 app.use(serveStatic('public/', {
   'index': ['index.html']
