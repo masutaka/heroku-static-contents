@@ -15,3 +15,9 @@ or
     $ npm install
     $ node app.js
     Server starting on http://0.0.0.0:3000
+
+## Basic Authentication
+
+    $ heroku config:set BASIC_AUTH_USERNAME=username
+    $ heroku config:set BASIC_AUTH_PASSWORD=password
+	
