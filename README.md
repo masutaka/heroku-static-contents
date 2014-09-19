@@ -2,7 +2,11 @@
 
 ## How to
 
-    $ heroku create masutaka-static
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+or
+
+    $ heroku create <Your APP NAME>
     $ git push heroku master
     $ heroku open
 	
