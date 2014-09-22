@@ -9,7 +9,7 @@ or
     $ heroku create
     $ git push heroku master
     $ heroku open
-	
+
 ## You can run on localhost
 
     $ npm install
@@ -20,4 +20,3 @@ or
 
     $ heroku config:set BASIC_AUTH_USERNAME=username
     $ heroku config:set BASIC_AUTH_PASSWORD=password
-	
